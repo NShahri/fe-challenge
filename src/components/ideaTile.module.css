@@ -1,0 +1,32 @@
+.deleteTile {
+    display: none;
+}
+
+.ideaTile:hover .deleteTile {
+    display: block;
+    cursor: pointer;
+}
+
+
+.input {
+    width: 100%;
+    border: 1px solid transparent;
+    padding: 5px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.input:focus {
+    border: 1px solid lightgray;
+    text-overflow: clip;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.row {
+    display: flex;
+}
